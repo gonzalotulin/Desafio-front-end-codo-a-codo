@@ -27,12 +27,13 @@ main {
            margin-right: 100px;
            }
 
+
 @media (max-width: 768px){
     .fondo{
         min-height: 60vh;
-}
+}}
 
 @media (max-width: 575.98px){
     .fondo{
         min-height: 50vh;
-}
+}}
