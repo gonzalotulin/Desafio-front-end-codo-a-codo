@@ -28,10 +28,18 @@ main {
            }
 
 
+.gradiente{
+    background-image: linear-gradient(to right, #1C3643 , #1C4E6C);
+  }
+
+
+
 @media (max-width: 768px){
     .fondo{
         min-height: 60vh;
-}}
+
+}
+    }
 
 @media (max-width: 575.98px){
     .fondo{
