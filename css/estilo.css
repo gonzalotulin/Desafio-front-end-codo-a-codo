@@ -29,7 +29,7 @@ main {
 
 
 .gradiente{
-    background-image: linear-gradient(to right, #1C3643 , #1C4E6C);
+    background: linear-gradient(to right, #1C3643 , #1C4E6C);
   }
 
 
