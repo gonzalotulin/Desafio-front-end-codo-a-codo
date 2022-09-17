@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Pagina primer desafio codo a codo">
+    <meta name="keywords" content="Codo a codo, bootstrap">
+    <meta name="author" content="Gonzalo Tulin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer desafio</title>
+    <title>Primer desafio Front End</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximumscale=1">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -46,18 +49,18 @@
 
 <!-- Seccion principal imagen -->
     <main>
-      <div class=" fondo" style = "background-image: url('img/ba1.jpg');">
-        <div class= "mascara d-flex align-items-center">
-          <div class="container d-flex flex-row-reverse " style= "text-align: right" >
-            <div class="col-5">
-              <h4 class="text-white">Conf Bs As</h4>
-                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                <a href="#" class="btn btn-success">Comprar tickets</a>
+        <div class=" fondo" style = "background-image: url('img/ba1.jpg');">
+          <div class= "mascara d-flex align-items-center">
+            <div class="container d-flex flex-row-reverse " style= "text-align: right" >
+              <div class="col-5">
+                <h4 class="text-white">Conf Bs As</h4>
+                  <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                  <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+                  <a href="#" class="btn btn-success">Comprar tickets</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 <!-- #Seccion Oradores -->
       <div class="oradores">
@@ -106,7 +109,7 @@
           <div class="col-md-6 p-0">
             <img src="img/honolulu.jpg" class="img-fluid" alt="Honolulu">
           </div>
-          <div class="col-md-6 pt-3 pe-0 text-white fondo-nav" >
+          <div class="col-md-6 py-3 text-white fondo-nav" >
             <h5>Bs As - Octubre</h5>
             <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie). </p>
             <a href="#" class="btn btn-outline-light">Conocé más</a>
@@ -119,8 +122,31 @@
         <h6 class="text-center">CONVIÉRTETE EN UN</h6>
         <h3 class="text-center">ORADOR</h3>
         <p class="text-center">Anótate como orador para dar una <span style= "text-decoration: underline">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
-        <div class="row d-flex justify-content-center">
-    </main>
+      </div>
+
+      <!-- <div class="container p-0 d-flex justify-content-center"> -->
+        <form class="oradores" >
+          <div class="row mb-3 justify-content-center  ">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+            </div>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+            </div>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-8">
+              <textarea class="form-control form-control-lg" placeholder="Sobre que quieres hablar?" rows="5" id="comentario" name="text"></textarea>
+              <label class="form-label " for="comentario" style="color:gray; ">Recuerda incluir un titulo para tu charla</label>
+            </div>
+          </div>
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-8">
+              <button type="submit" class=" botonEnviar">Enviar</button>
+        </form>
+      </div>            
+      
+        </main>
 
     <!-- Footer -->
     <footer>

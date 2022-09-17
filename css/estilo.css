@@ -28,12 +28,24 @@ main {
            }
 
 
+
+  .form-horizontal{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+.botonEnviar{
+    width: 100%;
+    background-color: #96C93E;
+    color: white;
+    border-color: transparent;
+}
+
 .gradiente{
     background: linear-gradient(to right, #1C3643 , #1C4E6C);
   }
-
-
-
+  
 @media (max-width: 768px){
     .fondo{
         min-height: 60vh;
