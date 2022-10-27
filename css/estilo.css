@@ -1,3 +1,6 @@
+/* INDEX
+-------------------------------------------------- */
+
 body{margin:0px}
 
 .fondo-nav {
@@ -45,6 +48,8 @@ main {
 .gradiente{
     background: linear-gradient(to right, #1C3643 , #1C4E6C);
   }
+
+
   
 @media (max-width: 768px){
     .fondo{
@@ -57,3 +62,14 @@ main {
     .fondo{
         min-height: 50vh;
 }}
+
+/* CompraTickets
+-------------------------------------------------- */
+
+.btn-form {
+    background: #96c93e;
+    color: #fff !important;
+    border:#96c93e;
+  }
+
+  .btn-form:hover { background: #74aa17; }
